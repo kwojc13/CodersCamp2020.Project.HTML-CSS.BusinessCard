@@ -6,13 +6,74 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>CodersCamp | Projekt 1 - HTML i CSS</title>
-    <meta name="description" content="CodersCamp to darmowy, otwarty kurs programowania webowego we Wrocławiu. Sprawdź, czego nauczysz się na CodersCamp i spróbuj swoich sił w branży IT!">
+    <meta name="description"
+        content="CodersCamp to darmowy, otwarty kurs programowania webowego we Wrocławiu. Sprawdź, czego nauczysz się na CodersCamp i spróbuj swoich sił w branży IT!">
 
+    <script src="https://kit.fontawesome.com/377f43d9ff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+   
+    <div class="content">
+        <header class="all">
+            <div>
+                <p>Klaudia Wojciechowska @1994 </p>
+                <p class="italic">aspiring frond-end developer</p>
+            </div>
+        </header>
 
-<p>CodersCamp - projekt 1. Tutaj możesz zacząć swoją zabawę!</p>
+        <div class="photo1"><img src="./photo/photo1.JPG"></div>
+        <div class="more">
 
+            <label>
+                <input class="input-more" type="checkbox" checked="">
+                <div class="hover-container">Click anywhere to close! <br> This is some text about me. Suprise,
+                    suprise..</div>
+                <div class="button">ABOUT ME</div>
+            </label>
+            <label>
+                <input class="input-more" type="checkbox" checked="">
+                <div class="hover-container">Click anywhere to close! <br> This is some text about E&E. Suprise,
+                    suprise..</div>
+                <div class="button">EDUCATION & EXPERIENCE</div>
+            </label>
+            <label>
+                <input class="input-more" type="checkbox" checked="">
+                <div class="hover-container">Click anywhere to close! <br> This is some text about my superpowers.
+                    Suprise, suprise..</div>
+                <div class="button">SUPERPOWERS</div>
+            </label>
+        </div>
+
+        <footer class="foot">
+            <label class="form-label">
+                <input class="input-form" type="checkbox" checked="">
+                <div class="form hover-container-form">
+                    <form>
+                        <label for="fname">Your name:</label><br>
+                        <input type="text" id="fname" name="fname" placeholder="First name"><br>
+                        <input type="text" id="lname" name="lname" placeholder="Last name"><br>
+                        <label for="email">Email adress:</label><br>
+                        <input type="text" id="email" name="email" placeholder="example@email.com"><br>
+                        <label for="phone">Phone number:</label><br>
+                        <input type="text" id="phone" name="phone" placeholder="+00123123123"><br>
+                        <label for="message">Message:</label><br>
+                        <textarea rows="10" cols="40" placeholder="Message.."></textarea><br>
+                        <input type="submit" value="Send!">
+                    </form>
+                </div>
+                <div class="form_link button-link"><p>Let's get in touch!</p></div>
+            </label>
+        </footer>
+    </div>
+    <div class="icons" id="socialMedia">
+        <ul>
+            <li><a href="url" target="_blank"><img class="social-media fb" src="./photo/facebook-f-brands.svg"></a></li>
+            <li><a href="url" target="_blank"><img class="social-media gh" src="./photo/github-brands.svg"></a></li>
+            <li><a href="url" target="_blank"><img class="social-media lin" src="./photo/linkedin-in-brands.svg"></a></li>
+        </ul>
+    </div>
 </body>
+
 </html>
