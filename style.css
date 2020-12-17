@@ -367,8 +367,10 @@ a:active {
 
     div.button:hover {
         font-size: 110%;
-        transition: font-size 0.4s;
+        transition: font-size 0.5s;
     }
+
+/*FORM*/
 
     footer {
         grid-row: 3/4;
@@ -380,7 +382,36 @@ a:active {
         border-top: 1px solid black;
         padding-top: 30px;
     }
-   
+
+    div.form {
+        font-size: 1.1em;
+    }
+
+    form>input {
+        margin: 5px;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    
+    input[type="text"] {
+    font-size: 1.3em;
+    margin: 20px;
+    }
+
+    textarea {
+        padding: 10px;
+        margin: 15px;
+        font-size: 1.2em;
+    }
+    
+    input[type=submit] {
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 150px;
+        font-size: 1.3em;;
+    }
+
 /*ICONS*/
 
 .icons {
@@ -398,15 +429,8 @@ a:active {
         height: 5vh;
     }
 
-    .fb:hover {
-        filter: drop-shadow(4px 4px 4px rgb(65, 105, 225, 1));
+    .social-media:hover {
+        filter: drop-shadow(4px 4px 4px rgb(255, 255, 255));
     }
 
-    .gh:hover {
-        filter: drop-shadow(4px 4px 4px rgb(255, 0, 0, 1));
-    }
-
-    .lin:hover {
-        filter: drop-shadow(4px 4px 4px rgb(65, 105, 225, 1));
-    }
 }
