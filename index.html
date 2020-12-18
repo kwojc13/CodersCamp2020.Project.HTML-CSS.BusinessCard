@@ -11,6 +11,8 @@
 
     <script src="https://kit.fontawesome.com/377f43d9ff.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
@@ -18,8 +20,8 @@
     <div class="content">
         <header class="all">
             <div>
-                <p>KLAUDIA WOJCIECHOWSKA <br> @1994 </p>
-                <p class="italic">aspiring front-end developer</p>
+                <p class="name">KLAUDIA WOJCIECHOWSKA@1994 </p>
+                <p>aspiring front-end developer</p>
             </div>
         </header>
 
@@ -52,10 +54,10 @@
                 <div class="form hover-container-form">
                     <form>
                         <label for="fname">Your name:</label><br>
-                        <input type="text" id="fname" name="fname" placeholder="First name"><br>
-                        <input type="text" id="lname" name="lname" placeholder="Last name"><br>
+                        <input type="text" id="fname" name="fname" placeholder="First name" required><br>
+                        <input type="text" id="lname" name="lname" placeholder="Last name" required><br>
                         <label for="email">Email adress:</label><br>
-                        <input type="text" id="email" name="email" placeholder="example@email.com"><br>
+                        <input type="text" id="email" name="email" placeholder="example@email.com" required><br>
                         <label for="phone">Phone number:</label><br>
                         <input type="text" id="phone" name="phone" placeholder="+00123123123"><br>
                         <label for="message">Message:</label><br>
@@ -63,7 +65,9 @@
                         <input type="submit" value="Send!">
                     </form>
                 </div>
-                <div class="form_link button-link"><p>Let's get in touch!</p></div>
+                <div class="form_link button-link">
+                    <p>Let's get in touch!</p>
+                </div>
             </label>
         </footer>
     </div>
