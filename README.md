@@ -18,6 +18,7 @@ Flexbox and/or CSS Grid
 Position (absolute, relative)
 animations keyframes
 form (admiting the form should cause the page to reload)
+variables
 Responsive Web Design
 
 Hope you like it :)
