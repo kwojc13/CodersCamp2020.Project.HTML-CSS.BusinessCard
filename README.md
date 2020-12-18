@@ -22,4 +22,5 @@ variables
 Responsive Web Design
 
 Hope you like it :)
+
 K.
