@@ -1,4 +1,4 @@
-# CodersCamp2020.Project.HTML-CSS.BusinessCard
+#Project1 - HTML-CSS.BusinessCard
 
 BUSINESS CARD PROJECT WITH CSS AND HTML ONLY.
 
