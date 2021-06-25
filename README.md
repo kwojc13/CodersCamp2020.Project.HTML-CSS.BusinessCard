@@ -1,4 +1,4 @@
-#Project1 - HTML-CSS.BusinessCard
+# HTML-CSS.BusinessCard
 
 BUSINESS CARD PROJECT WITH CSS AND HTML ONLY.
 
